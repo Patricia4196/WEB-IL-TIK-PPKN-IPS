@@ -1,0 +1,115 @@
+.header{
+    width: 1280px;
+    position: fixed;
+}
+body{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: darkred;
+}
+li{
+    float: left;
+}
+li a, .a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover, .Bentuk-Kerjasama:hover .a{
+    background-color: brown;
+    color: rgb(255, 183, 197);
+}
+li a:hover, .Contoh-Kerjasama:hover .b{
+    background-color: brown;
+    color: rgb(255, 183, 197);
+}
+li.Bentuk-Kerjasama{
+    display: inline-block;
+}
+li.Contoh-Kerjasama{
+    display: inline-block;
+}
+.content-a{
+    display: none;
+    position: absolute;
+    background-color: rgb(220, 20, 60);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px red;
+    z-index: 1;
+}
+.content-b{
+    display: none;
+    position: absolute;
+    background-color: rgb(220, 20, 60);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px red;
+    z-index: 1;
+}
+.Bentuk-Kerjasama:hover .content-a{
+    display: block;
+}
+.Contoh-Kerjasama:hover .content-b{
+    display: block;
+}
+.content-a a{
+    color: darksalmon;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.content-b a{
+    color: darksalmon;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+/* Kode CSS Side Bar */
+.column{
+    float: left;
+    padding: 0px 10px;
+}
+/* Left Column */
+.column.side{
+    margin: 170px 0px;
+    width: 250px;
+    height: 400px;
+    background-color: firebrick;
+}
+/* Kode CSS Middle Bar */
+.column.middle{
+    margin: 170px 0px;
+    width: 950px;
+    height: 1000px;
+    background-color: rgb(255, 192, 150);
+}
+/* Merapikan Order List */
+ol{
+    width: 400px;
+}
+ol.tujuan{
+    width: 900px;
+}
+ol.daftarpustaka{
+    width: 900px;
+    text-decoration: underline;
+}
+ol.daftarpustaka:hover{
+    text-decoration: underline;
+    width: 900px;
+}
+/* Kode CSS Footer */
+.footer{
+    width: 1280px;
+    position: fixed;
+    height: 50px 0px;
+}
